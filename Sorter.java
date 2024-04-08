@@ -20,19 +20,19 @@ public class Sorter
     public void selectionSort(int[] list, int length) {
         for (int i = 0; i < list.length; i++) {
             int min = i;
-            for (int j = 0; j < list.length; j++) {
-                if (list[min] < list[j]) {
-                    continue;
-                }
-                else if(list[min] > list[j]) {
+            for (int j = i + 1; j < list.length; j++) { // i + 1 because we've solved i in previous case
+                if (list[min] > list[j]) {
                     min = j;
                 }
             }
             int temp = list[i];
-            list[i] = min;
+            list[i] = list[min];
             list[min] = temp;
             
         }
     
     }
+    
+    // ** quick sort **
+    
 }
