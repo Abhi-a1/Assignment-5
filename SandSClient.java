@@ -65,10 +65,10 @@ public class SandSClient {  // begin class
         Sorter s = new Sorter();
 
         // load, print, sort and print the list 
-       actualLength = arrayFunctions.loadList(list); 
-       arrayFunctions.printList(list, actualLength);
-        s.bubbleSort(list, actualLength);
-        arrayFunctions.printList(list, actualLength);
+      // actualLength = arrayFunctions.loadList(list); 
+      // arrayFunctions.printList(list, actualLength);
+      //  s.bubbleSort(list, actualLength);
+      //  arrayFunctions.printList(list, actualLength);
 
     // **** quick sort ****
     
@@ -83,10 +83,10 @@ public class SandSClient {  // begin class
             
         // re-load the list so it is once again unsorted
         // print, sort and print again
-//        actualLength = arrayFunctions.loadList(list);
-//        arrayFunctions.printList(list, actualLength);
-//        s.selectionSort(list, actualLength);
-//        arrayFunctions.printList(list, actualLength);
+        actualLength = arrayFunctions.loadList(list);
+        arrayFunctions.printList(list, actualLength);
+        s.selectionSort(list, actualLength);
+        arrayFunctions.printList(list, actualLength);
         
 
     // ************************ print output ****************************
