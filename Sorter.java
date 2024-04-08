@@ -1,3 +1,13 @@
+/********************************************************************
+ * Programmer:    Abhi
+ * Class:  CS40S
+ *
+ * Assignment: Client code for searching and sorting classes
+ * Program Name:  Sorter
+ *
+ * Description: Bubble sort method, Quick sort method, and Selection sort method
+ *              done here. 
+ ***********************************************************************/
 public class Sorter
 {
     // ** bubble sort **

@@ -1,6 +1,6 @@
 /********************************************************************
  * Programmer:    Abhi
- * Class:  CS20S
+ * Class:  CS40S
  *
  * Assignment: Client code for searching and sorting classes
  * Program Name:  SandSClient
@@ -64,18 +64,22 @@ public class SandSClient {  // begin class
         // create a sorter class
         Sorter s = new Sorter();
 
-        // load, print, sort and print the list 
-      // actualLength = arrayFunctions.loadList(list); 
-      // arrayFunctions.printList(list, actualLength);
-      //  s.bubbleSort(list, actualLength);
-      //  arrayFunctions.printList(list, actualLength);
+        // load, print, sort and print the list
+        System.out.println("****Scrambled Numbers****");
+       actualLength = arrayFunctions.loadList(list); 
+       arrayFunctions.printList(list, actualLength);
+       System.out.println("****Bubble Sort****");
+        s.bubbleSort(list, actualLength);
+        arrayFunctions.printList(list, actualLength);
 
     // **** quick sort ****
     
         //re-load the list so it is once again unsorted
         //print, sort and print again
+        System.out.println("****Scrambled Numbers****");
         actualLength = arrayFunctions.loadList(list);
         arrayFunctions.printList(list, actualLength);
+        System.out.println("****Quick Sort****");
         s.quickSort(list, 0, list.length - 1);
         arrayFunctions.printList(list, actualLength);
 
@@ -83,10 +87,12 @@ public class SandSClient {  // begin class
             
         // re-load the list so it is once again unsorted
         // print, sort and print again
-       // actualLength = arrayFunctions.loadList(list);
-       // arrayFunctions.printList(list, actualLength);
-       // s.selectionSort(list, actualLength);
-       // arrayFunctions.printList(list, actualLength);
+        System.out.println("****Scrambled Numbers****");
+        actualLength = arrayFunctions.loadList(list);
+        arrayFunctions.printList(list, actualLength);
+        System.out.println("****Selection Sort****");
+        s.selectionSort(list, actualLength);
+        arrayFunctions.printList(list, actualLength);
         
 
     // ************************ print output ****************************

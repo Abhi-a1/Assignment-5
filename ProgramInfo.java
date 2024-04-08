@@ -1,6 +1,6 @@
 /* **********************************************************
- * Programmer:    your name here
- * Class:        CS20S
+ * Programmer:    Abhi
+ * Class:        CS40S
  * 
  * Assignment:    program information class
  *

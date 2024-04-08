@@ -2,12 +2,12 @@
 import java.util.Random;
 
 /* **********************************************************
- * Programmer:	Rob Sveinson
- * Class:		CS20S
+ * Programmer:    Abhi
+ * Class:        CS40S
  * 
- * Assignment:	A2 Sorting and Searching
+ * Assignment:    A2 Sorting and Searching
  *
- * Description:	class to do some standard array work, load and print to name
+ * Description:    class to do some standard array work, load and print to name
                 two
  **************************************************************/
  
